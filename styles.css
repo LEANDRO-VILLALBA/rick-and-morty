@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(assets/galaxiagreen.jpg);
+    background-attachment: fixed;
+}
+/* header styles */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.816);
+    border:2px solid #56BFC7;
+    color: #1F9F1E;
+}
+
+header img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+h1 {
+    color:#1F9F1E;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bigelow Rules', cursive;
+    /* background-color: red; */
+    font-size: 90px;
+    text-shadow: 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(39,206,73,0), 2px 2px 2px rgba(39,206,73,0);
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.cont-li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+    color: #1F9F1E;
+}
+.cont-li a {
+    text-decoration: none;
+    color: #1F9F1E;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cont-li a:hover{
+        color: rgb(30, 26, 26);
+        background: rgb(18,190,119);
+        background: linear-gradient(90deg, rgba(18,190,119,0.969152626871061) 10%, rgba(9,118,121,0.9159313383556548) 50%, rgba(0,197,255,0.8318977249102766) 82%);
+    }
+
+                                  /* main styles */
+
+
+.Bienvenidos {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+h2 {
+    color:#1F9F1E;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.816);
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 6px;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 10px;
+}
+h2:hover
+ {
+    color: rgb(30, 26, 26);
+    background: rgb(18,190,119);
+    background: linear-gradient(90deg, rgba(18,190,119,0.969152626871061) 10%, rgba(9,118,121,0.9159313383556548) 50%, rgba(0,197,255,0.8318977249102766) 82%);
+
+ }
+
+.parrafo-main {
+    padding: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+/* card styles */
+
+.cont-cajas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.cont-caja-personajes {
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 15px;
+    
+    margin: 15px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:7px solid #1F9F1E;
+}
+
+.cont-caja-personajes:hover {
+    border-color: #970A74;
+}
+
+.img-cont {
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px;
+
+
+}
+
+.info-cont {
+    /* background-color: palevioletred; */
+    margin: 10px;
+}
+
+.info-cont h3 {
+    color: #970A74;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    /* font-size: 10px; */
+    /* margin: 5px; */
+    /* padding: 5px; */
+    text-align: center;
+}
+
+.info-text {
+    padding: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    color: white;
+}
+
+span {
+    color: #1F9F1E;
+}
+
+/* episodios styles */
+
+.cont-episodios {
+    text-align: center;
+
+}
+
+.episodio-p {
+    color: #FFF;
+    margin: 25px ;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.button-hbo {
+    color: #FFF;
+    background-color:#970A74;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.button-hbo:hover {
+    color: black;
+    background-color: #56BFC7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.button-youtube {
+    color: #FFF;
+    background-color:red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.button-youtube:hover {
+    color: black;
+    background-color: #56BFC7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.cont-episodios {
+    margin: 20px;
+}
+
+/* footer styles */
+footer {
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.866);
+     padding: 30px;
+     border: 2px solid #56BFC7;
+     margin: 10px;
+     color: #49FF18;
+     justify-content:center;
+     align-items: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+     letter-spacing: 2px;
+}
+.ul-cont {
+    display: flex;
+    list-style: none;
+}
+
+.li-footer {
+    margin: 10px;
+    /* background-color: red; */
+}
+
+.li-footer img {
+    width: 80px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
