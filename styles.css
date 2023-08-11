@@ -12,13 +12,15 @@ body{
 /* header styles */
 header{
     display: flex;
+    flex-wrap: wrap;
+    /* esto es para ver si me carga el wrap para subirlo  */
     justify-content: space-around;
     align-items: center;
     height: 150px;
     background-color: rgba(0, 0, 0, 0.816);
     border:2px solid #56BFC7;
     color: #1F9F1E;
-}
+} 
 
 header img {
     width: 90px;
@@ -42,7 +44,7 @@ h1 {
 		opacity: 1;
 	}
 
-	25%,
+	25%, 
 	75% {
 		opacity: 0;
 	}
