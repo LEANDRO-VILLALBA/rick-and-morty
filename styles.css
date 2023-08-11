@@ -117,6 +117,13 @@ h2:hover
 
 /* card styles */
 
+ /* .cont-personajes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont-personajes, h2 {
+    justify-content: center; */
+
 .cont-cajas {
     display: flex;
     flex-wrap: wrap;
